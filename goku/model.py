@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-def apply_rotary_emb(
+def apply_rotary_emb(Child playing with beautiful cats
     x: torch.Tensor,
     freqs_cis: Union[torch.Tensor, Tuple[torch.Tensor]],
 ) -> Tuple[torch.Tensor, torch.Tensor]:
